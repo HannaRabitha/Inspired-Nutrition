@@ -1,0 +1,91 @@
+@import "./../styles/variables.scss";
+
+.comment {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+
+    &__image {
+        margin-right: 1rem;
+
+        img {
+           width: 100px;
+           height: 100px;
+           border-radius: 50px;
+
+           @include breakpoint(sm) {
+           width: 50px;
+           height: 50px;
+        }
+        }
+        
+    }
+
+    &__box {
+
+        text-align: left;
+
+        h1 {
+            font-size: 24px;
+            padding-bottom: 0.5rem;
+        }
+
+        h4 {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        p {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            text-align: left;
+        }
+
+        &__updownvote {
+            width: 8rem;
+            display: grid;
+            padding-top: 1rem;
+            grid-auto-flow: column;
+            align-items: center;
+            font-size: 14px;
+
+            button {
+                width: 30px;
+                height: 25px;
+                background-color: $gray-light;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+.header {
+    width: full;
+    background-color: beige;
+    position: relative;
+
+    &__btnEdit {
+        position: absolute;
+        right: 0;
+        margin-right: 3rem;
+    }
+}
+
+
+.buttonup {
+    &:hover {
+        background-color: $green;
+        color: #fff;
+    }
+}
+
+.buttondown {
+    &:hover {
+        background-color: $red;
+        color: #fff;
+    }
+}
+
+

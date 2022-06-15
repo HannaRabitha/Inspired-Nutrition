@@ -1,0 +1,130 @@
+@import "../../styles/variables.scss";
+
+.modal {
+    // opacity: 1;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    transition: 0.3s ease-in-out;
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__content {
+        width: 50%;
+        margin: auto;
+        position: relative;
+        background-color: #fff;
+        border-radius: 1rem;
+        transform: translateY(30%);
+        padding: 2rem;
+
+        @include breakpoint(sm) {
+            width: 90%;
+        }
+  
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            color: $red;
+            font-size: 18px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 0.5rem;
+
+            &:hover {
+                background-color: $red;
+                color: #fff;
+            }
+        }
+    }
+
+
+    &__body,
+    &__footer {
+        padding: 16px 20px;
+        background-color: #fff;
+    }
+
+    &__close {
+        position: absolute;
+        top: 16px;
+        right: 20px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #7f7f7f;
+
+        &:hover {
+            color: #000;
+        }
+    }
+}
+
+
+form {
+    width: 100%;
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 20px;
+      outline: none;
+      border: none;
+      background-color: #ecf0f1;
+      padding: 10px;
+      line-height: 2;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: $dark;
+      color: white;
+      font-size: 18px;
+      width: 100%;
+      outline: none;
+      border: none;
+      padding: 15px;
+      margin-top: 20px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $red;
+      }
+
+    }
+
+    p {
+      color: $red;
+      margin-bottom: 0px;
+
+      a {
+        text-align: center;
+        text-decoration: none;
+        color: $gray;
+        padding-left: 3px;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .message {
+  width: 100%;
+  height: 6rem;
+  }

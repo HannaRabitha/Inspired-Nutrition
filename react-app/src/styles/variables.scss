@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+@font-face {
+    font-family: "PT_Sans-Web";
+    src: url("../../public/assets/fonts/PT_Sans-Web-Regular.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT_Sans-Web";
+    src: url("../../public/assets/fonts/PT_Sans-Web-Italic.ttf") format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "PT_Sans-Web";
+    src: url("../../public/assets/fonts/PT_Sans-Web-Bold.ttf") format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT_Sans-Web";
+    src: url("../../public/assets/fonts/PT_Sans-Web-BoldItalic.ttf") format(truetype);
+    font-weight: bold;
+    font-style: italic;
+}
+
+// $font-main: "PT_Sans-Web", sans-serif;
+$font-main: "Poppins", sans-serif;
+
+
+// colors
+$dark: #333333; //Brown Dark
+$light:  #EEEEEE; //White
+$primary: #71695F; //Brown
+$bg: rgb(244, 244, 255);
+$green: #42a147;
+$green-light: #dceddc;
+$red: #FF5F2D;
+$gray: #DDDDDD;
+$gray-light: #EEEEEE;
+$black: #333333;
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width:  992px) {
+            @content;
+        }
+    } @else if $point == sm {
+        @media (max-width:  767px) {
+            @content;
+        }
+    }
+}

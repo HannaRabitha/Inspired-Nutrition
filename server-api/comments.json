@@ -1,0 +1,75 @@
+{
+  "comments": [
+    {
+      "id": "fa1ca3c1-cc1e-4ed9-86b8-f60d8312d499",
+      "author": "Neal Topham",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/4825/4825044.png",
+      "date": "2017-02-08T00:30:05.552Z",
+      "message": "Hmmm, burger itu tidak sehat!",
+      "point": 3,
+      "replies": [
+        {
+          "id": "4ba9a8d1-cbe9-4906-ac23-0030f5df027e",
+          "author": "Dyan Shankin",
+          "avatar": "https://cdn-icons-png.flaticon.com/512/4825/4825112.png",
+          "date": "2017-02-08T00:33:20.369Z",
+          "message": "Lorem ipsum dolor sit amet",
+          "point": 0
+        }
+      ]
+    },
+    {
+      "id": "9b3d6fe2-e3fc-47c6-b09a-f2b40547b101",
+      "author": "Jacquelyne Garrity",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/4825/4825123.png",
+      "date": "2017-02-08T00:32:18.214Z",
+      "message": "Saya suka burger",
+      "point": 0,
+      "replies": [
+        {
+          "id": "e157bcd4-68d7-4d2a-ade1-da50f0913daf",
+          "author": "Shella Tamashiro",
+          "avatar": "https://cdn-icons-png.flaticon.com/512/4825/4825076.png",
+          "date": "2017-02-09T00:33:20.369Z",
+          "message": "saya juga",
+          "point": 1
+        },
+        {
+          "id": "ff441e8a-7465-4527-bd9a-ed6d3ad5fdef",
+          "author": "Marcelino Stangle",
+          "avatar": "https://cdn-icons-png.flaticon.com/512/4825/4825047.png",
+          "date": "2017-02-09T00:37:38.411Z",
+          "message": "Setuju",
+          "point": 1
+        }
+      ]
+    },
+    {
+      "id": "27526171-1236-4785-a67f-72b48989e3ff",
+      "author": "Lawanda Schey",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/4825/4825021.png",
+      "date": "2017-02-09T00:32:18.214Z",
+      "message": "It's good!.",
+      "point": 1,
+      "replies": []
+    },
+    {
+      "id": "ece554e-bf1-e4c5-3776-281a7678bd61",
+      "author": "hanna",
+      "avatar": "https://placebeard.it/100x100",
+      "date": "2022-06-15T01:27:51.180Z",
+      "message": "CIEEEEEE",
+      "point": 0,
+      "replies": []
+    },
+    {
+      "id": "5040515-16c7-f3b2-dfc4-7db577135ee1",
+      "author": "dhsjds",
+      "avatar": "https://picsum.photos/100",
+      "date": "2022-06-15T03:31:27.079Z",
+      "message": "gimana?",
+      "point": 0,
+      "replies": []
+    }
+  ]
+}

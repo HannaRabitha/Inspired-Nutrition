@@ -1,0 +1,16 @@
+@import "./../styles/variables.scss";
+
+.container {
+    height: calc(100vh - #{$headerHeight});
+    width: 100%;
+    background: #fff;
+    display: flex; 
+    // justify-content: center;
+    // align-items: center;
+    padding: 2rem;
+    padding-top: 7rem;
+
+    @include breakpoint(sm) {
+    }
+
+}

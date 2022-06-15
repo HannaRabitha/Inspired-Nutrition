@@ -1,0 +1,49 @@
+@import "./../styles/variables.scss";
+
+.content {
+    
+    &__title {
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 1.5rem;
+    }
+
+    &__items {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+      
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__square {
+        width: 30px;
+        height: 30px;
+        color: $green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $green-light;
+        margin-right: 0.5rem;
+        border-radius: 50px;
+
+        &:hover {
+            background-color: $red;
+            color: #fff;
+        }
+    }
+}
+
+// h1 {
+//     padding: 1.5rem 2.5rem;
+//     background: linear-gradient(220deg, $primary, rgba($primary, 0.5));
+//     border-radius: $borderRadius calc(#{$borderRadius} * 10);
+// }
