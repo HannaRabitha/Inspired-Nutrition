@@ -1,20 +1,3 @@
-# Getting Started with this project
-
-## Start JSON Server
-
-In the project directory, you can run:
-
-### `npx json-server --watch -p 3001 comments.json`
-
-## Start React Project
-
-In the project directory, you can run:
-
-### `npm start`
-
-[https://screeningtest-fe.vercel.app/]
-
----
 
 # Getting Started with Create React App
 
